@@ -1,0 +1,85 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: inherit;
+    /* box-sizing: border-box; */
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.8em;
+}
+body {    
+    /* box-sizing: inherit; */
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+/* morethan 500 to tablet screen */
+
+
+
+/* not morethan 500 mobile view*/
+@media screen and (max-width: 500px) {
+
+    .container {
+        margin: 0 1.6em;
+    }
+
+   header {
+    margin: 2.4em 0 2.4em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+   .btn-box {
+        color: #FAF8F6;
+        font-weight: inherit;
+   } 
+}
+
+.container {
+    background-color: #FAF8F6;
+}
+/* header */
+header {
+    font-size: 1.8em;
+    letter-spacing: 0.014em;
+}
+.btn-box {    
+    font-family: "Lato", sans-serif;
+}
+.btn-secondary {
+    padding: 1.4em 2em;
+    border: 1px solid #172339;
+    border-radius: 10px;
+}
+.btn-secondary:hover {
+    background-color: #172339;
+    border-radius: 5px solid #172339;
+    color: #FAF8F6;
+    
+}
+/* ssb-content */
+.btn-primary {
+    padding: 1.4em 3em;
+    border: 1px solid #172339;
+    border-radius: 10px;
+    background-color: #172339;
+    color: #FAF8F6;
+    font-size: 1em;
+    font-weight: 700;
+}
+.btn-primary:hover {
+    background-color: #FAF8F6;
+    color: #172339;
+    font-size: 1em;
+    font-weight: 700;
+
+}
+.ssb-curve {
+    width: 15.1%;
+}
+.ssb-content p {
+    font-size: 2.8em;
+}
